@@ -3,7 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello, World!")
+	var a, b int
+	fmt.Scan(&a)
+	fmt.Scan(&b)
+	fmt.Println(sum(a, b))
 }
 
 func sum(a, b int) int {
